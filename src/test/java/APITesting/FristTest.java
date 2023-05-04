@@ -6,6 +6,8 @@ import io.restassured.path.json.*;
 import io.restassured.response.*;
 import org.junit.jupiter.api.*;
 
+import java.util.*;
+
 import static io.restassured.RestAssured.given;
 
 public class FristTest {
@@ -43,6 +45,9 @@ public class FristTest {
         System.out.println(name);
 
         Assertions.assertEquals("Rodolfo",jsonPath.getString("[2].name"));
+
+        List<Long> phones = jsonPath.getList("phone");
+        System.out.println(phones);
 
     }
 }

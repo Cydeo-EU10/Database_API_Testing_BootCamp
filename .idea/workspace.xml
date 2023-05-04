@@ -43,7 +43,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Zulpikar/IdeaProjects/Database_API_Testing_BootCamp",
+    "last_opened_file_path": "C:/Users/Zulpikar/IdeaProjects/Database_API_Testing_BootCamp/src/test/java/APITesting",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,9 +64,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Zulpikar\IdeaProjects\Database_API_Testing_BootCamp\src\test\java\APITesting" />
       <recent name="C:\Users\Zulpikar\IdeaProjects\Database_API_Testing_BootCamp" />
       <recent name="C:\Users\Zulpikar\IdeaProjects\Database_API_Testing_BootCamp\src\test\java" />
-      <recent name="C:\Users\Zulpikar\IdeaProjects\Database_API_Testing_BootCamp\src\test\java\APITesting" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Zulpikar\IdeaProjects\Database_API_Testing_BootCamp\src\test\resources" />
@@ -174,7 +174,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683196936289</updated>
-      <workItem from="1683196937479" duration="19818000" />
+      <workItem from="1683196937479" duration="20264000" />
     </task>
     <task id="LOCAL-00001" summary="project created">
       <created>1683208455803</created>
@@ -288,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683230786687</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="api project is updated">
+      <created>1683231241808</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1683231241808</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

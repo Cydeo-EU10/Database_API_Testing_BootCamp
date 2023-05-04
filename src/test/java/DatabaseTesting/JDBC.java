@@ -33,6 +33,17 @@ public class JDBC {
         System.out.println(rs.getInt(1));
 
 
+        ResultSetMetaData rsmd = rs.getMetaData();
+
+        System.out.println(rsmd.getColumnName(1));
+        System.out.println(rsmd.getColumnCount());
+
+        System.out.println("********************");
+
+        DatabaseMetaData dbmd = conn.getMetaData();
+        System.out.println(dbmd.getDriverName());
+        System.out.println(dbmd.getUserName());
+
 
     }
 

@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c418824e-4761-416d-a562-6d1b8e5eb972" name="Changes" comment="api project is updated">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c418824e-4761-416d-a562-6d1b8e5eb972" name="Changes" comment="api project is updated" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,6 +43,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Zulpikar/IdeaProjects/Database_API_Testing_BootCamp",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -63,6 +62,19 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Zulpikar\IdeaProjects\Database_API_Testing_BootCamp" />
+      <recent name="C:\Users\Zulpikar\IdeaProjects\Database_API_Testing_BootCamp\src\test\java" />
+      <recent name="C:\Users\Zulpikar\IdeaProjects\Database_API_Testing_BootCamp\src\test\java\APITesting" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Zulpikar\IdeaProjects\Database_API_Testing_BootCamp\src\test\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="APITesting" />
+    </key>
+  </component>
   <component name="RunManager" selected="JUnit.XmlReview.test1">
     <configuration name="Deserilization.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Database_API_Testing_BootCamp" />
@@ -162,7 +174,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683196936289</updated>
-      <workItem from="1683196937479" duration="19356000" />
+      <workItem from="1683196937479" duration="19818000" />
     </task>
     <task id="LOCAL-00001" summary="project created">
       <created>1683208455803</created>
@@ -269,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683229848708</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="api project is updated">
+      <created>1683230786687</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1683230786687</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

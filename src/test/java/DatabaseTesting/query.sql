@@ -277,3 +277,5 @@ select name from students;
 select name from instructors
 intersect
 select name from students;
+
+select * from REGIONS;

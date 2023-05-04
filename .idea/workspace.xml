@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c418824e-4761-416d-a562-6d1b8e5eb972" name="Changes" comment="api project is updated">
-      <change afterPath="$PROJECT_DIR$/src/test/java/APITesting/POJO/Search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/APITesting/PostMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/APITesting/Authentication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/APITesting/Deserilization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/APITesting/Deserilization.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,23 +64,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.PostMethod.test1">
-    <configuration name="Deserilization.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Database_API_Testing_BootCamp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="APITesting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="APITesting" />
-      <option name="MAIN_CLASS_NAME" value="APITesting.Deserilization" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.XmlReview.test1">
     <configuration name="Deserilization.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Database_API_Testing_BootCamp" />
       <extension name="coverage">
@@ -147,13 +129,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="XmlReview.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Database_API_Testing_BootCamp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="APITesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="APITesting" />
+      <option name="MAIN_CLASS_NAME" value="APITesting.XmlReview" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.XmlReview.test1" />
         <item itemvalue="JUnit.PostMethod.test1" />
         <item itemvalue="JUnit.Deserilization.test4" />
         <item itemvalue="JUnit.Deserilization.test3" />
         <item itemvalue="JUnit.Deserilization.test2" />
-        <item itemvalue="JUnit.Deserilization.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +163,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683196936289</updated>
-      <workItem from="1683196937479" duration="17639000" />
+      <workItem from="1683196937479" duration="18469000" />
     </task>
     <task id="LOCAL-00001" summary="project created">
       <created>1683208455803</created>
@@ -258,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683227710689</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="api project is updated">
+      <created>1683228934096</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1683228934096</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

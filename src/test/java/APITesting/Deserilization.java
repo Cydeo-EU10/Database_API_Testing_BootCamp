@@ -55,7 +55,19 @@ public class Deserilization extends TestBase {
 
         Spartan spartan = response.as(Spartan.class);
         System.out.println(spartan);
-
-
     }
+
+    @Test
+    public void test4(){
+        Response response = given().accept(ContentType.JSON)
+                .and().queryParam("gender","Female")
+                .when().get("/api/spartans/search");
+
+        System.out.println(response.statusCode());
+
+        Search spartanFemale = response.as(Search.class);
+        System.out.println(spartanFemale);
+    }
+
+
 }

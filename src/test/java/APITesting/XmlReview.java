@@ -1,6 +1,7 @@
 package APITesting;
 
 import io.restassured.http.*;
+import io.restassured.path.xml.*;
 import io.restassured.response.*;
 import org.junit.jupiter.api.*;
 
@@ -14,5 +15,8 @@ public class XmlReview extends TestBase{
                 .when().get("http://3.216.30.92:8000/api/spartans");
 
         response.prettyPrint();
+
+        XmlPath xmlPath = response.xmlPath();
+        System.out.println(xmlPath.get("List.item[0].name").toString());
     }
 }

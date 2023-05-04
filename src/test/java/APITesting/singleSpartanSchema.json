@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/Welcome3",
+  "definitions": {
+    "Welcome3": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "gender": {
+          "type": "string"
+        },
+        "phone": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "gender",
+        "id",
+        "name",
+        "phone"
+      ],
+      "title": "Welcome3"
+    }
+  }
+}

@@ -58,6 +58,41 @@ order by SALARY;
 select FIRST_NAME, SALARY from EMPLOYEES
 order by SALARY desc;
 
+-- aggragate functions
+-- min, max, avg, sum
+select min(SALARY), max(SALARY), avg(SALARY),sum(SALARY) from EMPLOYEES;
+select min(SALARY), max(SALARY), round(avg(SALARY),2),sum(SALARY) from EMPLOYEES;
+
+-- group by  and having
+select count(FIRST_NAME), JOB_ID from EMPLOYEES
+group by JOB_ID;
+
+select sum(SALARY) , DEPARTMENT_ID from EMPLOYEES
+group by DEPARTMENT_ID
+having sum(SALARY) > 30000;
+
+select sum(SALARY) , JOB_ID from EMPLOYEES
+group by JOB_ID
+having sum(SALARY) > 30000;
+
+
+-- subquery
+-- query inside another query
+select FIRST_NAME,SALARY from EMPLOYEES
+where SALARY = (select max(SALARY) from EMPLOYEES);
+
+
+select FIRST_NAME, HIRE_DATE from EMPLOYEES
+where HIRE_DATE = (Select min(HIRE_DATE) from EMPLOYEES);
+
+-- string functions
+-- concatination    ||
+select FIRST_NAME, LAST_NAME from EMPLOYEES;
+
+select FIRST_NAME || ' ' || LAST_NAME from EMPLOYEES;
+
+
+
 
 
 

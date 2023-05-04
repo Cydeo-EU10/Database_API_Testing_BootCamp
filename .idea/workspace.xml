@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c418824e-4761-416d-a562-6d1b8e5eb972" name="Changes" comment="project created">
+    <list default="true" id="c418824e-4761-416d-a562-6d1b8e5eb972" name="Changes" comment="project updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/DatabaseTesting/query.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DatabaseTesting/query.sql" afterDir="false" />
     </list>
@@ -65,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683196936289</updated>
-      <workItem from="1683196937479" duration="4777000" />
+      <workItem from="1683196937479" duration="6856000" />
     </task>
     <task id="LOCAL-00001" summary="project created">
       <created>1683208455803</created>
@@ -88,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683210762217</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="project updated">
+      <created>1683212020513</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683212020513</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +103,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="project created" />
-    <option name="LAST_COMMIT_MESSAGE" value="project created" />
+    <MESSAGE value="project updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="project updated" />
   </component>
 </project>

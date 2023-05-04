@@ -239,7 +239,41 @@ select * from instructors;
 alter table students rename column course to class;
 select * from students;
 
+
+-- turncate
+-- delete all the data inside table, but not table
+truncate table students;
+select * from students;
+
+-- delete the whole table
+drop table instructors;
+select * from instructors;
+
 -- union
 -- two independent query
 -- data type should be same
 -- column numbers should be same
+
+-- union all --> return all the data, not deleting duplicated ones ,not sorting
+select name from instructors
+union all
+select name from students;
+
+
+--union --> return only unique data, and sorting
+select name,branch from instructors
+union
+select name,class from students;
+
+-- minus
+select name from instructors
+minus
+select name from students;
+
+select name from INSTRUCTORS;
+select name from students;
+
+-- intersect
+select name from instructors
+intersect
+select name from students;

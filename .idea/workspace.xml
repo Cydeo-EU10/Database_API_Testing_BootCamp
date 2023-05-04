@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c418824e-4761-416d-a562-6d1b8e5eb972" name="Changes" comment="project updated">
+      <change afterPath="$PROJECT_DIR$/src/test/java/APITesting/FristTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DatabaseTesting/JDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DatabaseTesting/JDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +65,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.FristTest.test2">
     <configuration name="JDBC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DatabaseTesting.JDBC" />
       <module name="Database_API_Testing_BootCamp" />
@@ -78,8 +79,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FristTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Database_API_Testing_BootCamp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="APITesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="APITesting" />
+      <option name="MAIN_CLASS_NAME" value="APITesting.FristTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FristTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Database_API_Testing_BootCamp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="APITesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="APITesting" />
+      <option name="MAIN_CLASS_NAME" value="APITesting.FristTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FristTest.test2" />
+        <item itemvalue="JUnit.FristTest.test1" />
         <item itemvalue="Application.JDBC" />
       </list>
     </recent_temporary>
@@ -92,7 +127,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683196936289</updated>
-      <workItem from="1683196937479" duration="11831000" />
+      <workItem from="1683196937479" duration="13414000" />
     </task>
     <task id="LOCAL-00001" summary="project created">
       <created>1683208455803</created>
@@ -150,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683217945601</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="project updated">
+      <created>1683219081569</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1683219081569</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
